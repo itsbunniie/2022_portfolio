@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@700&display=swap');
+
+@tailwind base;
+
+body {
+	@apply text-white bg-night;
+}
+
+* {
+	scroll-behavior: smooth;
+	font-family: 'Space Grotesk', sans-serif;
+	scrollbar-width: thin;
+	scrollbar-color: white;
+}
+
+*::-webkit-scrollbar {
+	width: 0.375rem;
+}
+
+*::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: white;
+}
+
+@tailwind components;
+
+.btn {
+	@apply py-1.5 uppercase border border-white px-7 hover:bg-white/30 transition ease-in-out duration-300;
+}
+
+.timeline {
+	border-left: 1px solid white;
+	position: relative;
+	list-style: none;
+}
+
+.period {
+	position: relative;
+}
+
+.period::before {
+	content: '';
+	position: absolute;
+	top: 3rem;
+	left: -5.3px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: white;
+}
+
+.period:last-child {
+	padding-bottom: 2.5rem;
+}
+
+@tailwind utilities;
