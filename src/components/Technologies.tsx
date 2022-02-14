@@ -1,5 +1,5 @@
-import React, { Fragment, useState, useEffect } from 'react';
-import { AnimatePresence, motion } from 'framer-motion';
+import React, { Fragment, useState } from 'react';
+import { motion } from 'framer-motion';
 import { Dialog, Transition } from '@headlessui/react';
 import { Icon } from '@iconify/react';
 
