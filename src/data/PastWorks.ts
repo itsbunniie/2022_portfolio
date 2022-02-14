@@ -17,7 +17,7 @@ export const WebApps: WorkData[] = [
 		description:
 			'My first and current porfolio where I showcase my works and information about myself. I designed and developed this all in one month.',
 		tools: ['React', 'Gatsby', 'TypeScript', 'TailwindCSS', 'Framer Motion'],
-		github: '#',
+		github: 'https://github.com/itsbunniie/2022_portfolio',
 	},
 	{
 		type: 'website',
@@ -27,7 +27,6 @@ export const WebApps: WorkData[] = [
 			'A cute URL shortening web application I co-developed as a side-project. I designed the website and participated in developing the front-end.',
 		tools: ['React', 'TypeScript', 'TailwindCSS'],
 		externalLink: 'https://litturl.vercel.app',
-		github: '#',
 	},
 	{
 		type: 'website, custom cms, rest api',
